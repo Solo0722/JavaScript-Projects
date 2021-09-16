@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div id="header"><button id="main" onclick = "openNav()">Login</button></div>
+    <div id = 'login'>
+        <img src="html.png" id = "image" > <span id="times" onclick="closeNav()">&times;</span>
+
+        <form action="" method="post" id="form">
+            <label for="Username"><b>Username</b></label><br>
+            <input type="text" name="Username" placeholder="Enter Username" required>
+            <label for="Password"><b>Password</b></label><br>
+            <input type="password" name="Password" placeholder="Enter Password" required>
+            <button type="submit">Login</button><br>
+            <input type="checkbox" name="" id="">Remember me
+        </form>
+        <div class="can">
+            <button id="cancel">Cancel</button><span class="psw">Forgot<a href="#"> password?</a></span>
+        </div>
+        
+    </div>
+    
+
+        <script src="login.js"></script>
+</body>
+</html>

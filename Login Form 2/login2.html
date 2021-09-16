@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login2.css">
+</head>
+<body>
+    <h2>Modal Login form</h2>
+    <button onclick="document.getElementById('id01').style.display = 'block'" style = width:auto;>Login</button>
+    <div id="id01" class="modal">
+        <form action="action_page.php" class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="showcase1.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" name="uname" placeholder="Enter Username" required>
+
+                <label><b>Password</b></label>
+                <input type="password" name="psw" placeholder="Enter Password" required>
+
+                <button type="submit">Login</button>
+                <input type="checkbox" checked>
+                Remember me
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="login2.js"></script>
+</body>
+</html>

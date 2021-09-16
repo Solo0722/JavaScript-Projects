@@ -1,0 +1,95 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#login{
+    width:0px;
+   background-color:#ccc;
+    overflow:hidden;
+    margin:60px;
+    transition:3s;
+    height:500px;
+
+}
+img{
+    border-radius:50%;
+    background-color: black;
+    width:100px;
+    height:100px;
+    margin-left:5px;
+    vertical-align:center;
+    
+}
+
+#times{
+    float:right;
+    font-size:50px;
+    cursor:pointer;
+}
+
+
+#form{
+    
+    margin:20px;
+    height:300px;
+    
+
+
+}
+input[type="text"],input[type="password"]{
+    padding:5px;
+    width:257px;
+    height:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    outline:none;
+}
+button[type="submit"]{
+    width:270px;
+    height:30px;
+    margin-top:5px;
+    margin-bottom:10px;
+    background-color: rgb(25, 247, 247);
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+#rem{
+    float:right;
+    
+}
+.can{
+    padding-top:20px;
+    background-color: #f1f1f1;
+    width:300px;
+    
+
+    
+}
+#cancel{
+    background-color: steelblue;
+    color:white;
+    border:none;
+    width:70px;
+    margin-bottom:10px;
+    padding:5px;
+    margin-left:10px;
+    cursor:pointer;
+}
+span.psw{
+    float:right;
+    margin:5px;
+}
+
+
+#main{
+    background-color: black;
+    color:white;
+    width:100px;
+    height:30px;
+    outline:none;
+}

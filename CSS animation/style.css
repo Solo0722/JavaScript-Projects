@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.grand-parent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    background-color: cyan;
+    border:5px solid black;
+}
+.parent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background-color:greenyellow;
+    border:5px solid black;
+}
+.child{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    background-color: blue;
+    border:5px solid black;
+    transition:3s;
+
+}
+.child:hover{
+    transform:scale(2);
+    transform:rotate("180deg");
+    
+}

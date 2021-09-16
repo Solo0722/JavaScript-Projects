@@ -1,0 +1,88 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#main{
+    background-color:darkslateblue;
+    width:800px;
+    height:500px;
+    margin:20px;
+    border:3px solid orangered;
+    border-radius:20px;
+}
+h1{
+    text-align:center;
+    color:Orangered;
+}
+
+.container{
+    padding:50px;
+    text-align:center;
+}
+
+input[type="number"]{
+    width:100px;
+    height:40px;
+    border:none;
+    outline:none;
+    padding:10px;
+    color:orangered;
+    font-size:15px;
+}
+
+#start{
+    width:100px;
+    height:40px;
+    border:none;
+    outline:none;
+    padding:10px;
+    background-color:orangered;
+    font-size:20px;
+    color:white;
+    border-radius:5px;
+}
+#stop{
+    width:100px;
+    height:40px;
+    border:none;
+    outline:none;
+    padding:10px;
+    background-color:orangered;
+    font-size:20px;
+    color:white;
+    border-radius:5px;
+}
+#reset{
+    width:100px;
+    height:40px;
+    border:none;
+    outline:none;
+    padding:10px;
+    background-color:orangered;
+    font-size:20px;
+    color:white;
+    border-radius:5px;
+}
+#start:hover,#stop:hover,#reset:hover{
+    background-color:white;
+    color:orangered;
+    
+}
+
+#count-down{
+    padding-bottom:50px;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    font-family:'Orbitron';
+    
+}
+#hourHand,#minuteHand,#secondHand,.dot{
+    padding-right:20px;
+}
+
