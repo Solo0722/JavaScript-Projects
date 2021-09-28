@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="song">
+        <source src="♫_Tarzan_-_'Son_Of_Man'_Lyrics_♫(128kbps).mp3">
+    </audio>
+    <header>
+        <h1>Alarm Clock</h1>
+        <div>
+            <button onclick="showAlarm()">Set Alarm</button>
+            <button onclick="clearAlarms()">Clear Alarms</button>
+        </div>
+    </header>
+
+    <div>
+        <div id="watch">
+            <p><span id="hour">00</span><span class="dot">:</span><span id="minute">00</span><span class="dot">:</span><span id="second">00</span></p>
+        </div>
+
+        <div class="container" id="container">
+            <div class="alarm-set">
+                <h2>Set Alarm</h2>
+                <label for="hour">Enter Hour:</label>
+                <input type="number" name="" id="alarmHour">
+                <br>
+                <label for="hour">Enter Minute:</label>
+                <input type="number" name="" id="alarmMinute">
+                <br>
+                <select id="time">
+                    <option value="PM">PM</option>
+                    <option value="AM">AM</option>
+                </select>
+                <br>
+                <button id="set" onclick="setAlarm()">Set</button>
+            </div>
+
+            <div class="alarm-display">
+                <h2>Alarms Set</h2>
+                <p><span id="setHour">00</span><span class="dot">:</span><span id="setMinute">00</span> <span id="period"></span>
+            </div>
+        </div>
+        
+
+        
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
